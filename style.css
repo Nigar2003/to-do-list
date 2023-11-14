@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+body {
+  font-family: Agbalumo;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(250, 243, 220, 0.784);
+  font-size: larger;
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  max-width: 500px;
+  min-width: 250px;
+  background: #f1f5f8;
+  background-size: 25px 25px;
+  border-radius: 20px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #8d6868;
+}
+
+#taskInput {
+
+  box-sizing: border-box;
+  padding: 0.7rem;
+  border-bottom-right-radius: 15px 3px;
+  border-bottom-left-radius: 3px 15px;
+  border: solid 3px;
+  border-bottom: solid 3px;
+  font-family: "Gochi Hand", cursive;
+  font-size: 1rem;
+  color: hsla(260, 2%, 25%, 0.7);
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.sort-button:hover {
+  background-color: #45a049;
+}
+
+button {
+  border-style: solid;
+  border-radius: 5px;
+  transform: rotate(4deg);
+  transform-origin: center;
+  font-family: "Gochi Hand", cursive;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 0 hsl(198, 1%, 29%);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+button:hover {
+  background-color: #484b04;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  border: 1px solid #b7b6b6;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.d-none {
+  display: none;
+}
